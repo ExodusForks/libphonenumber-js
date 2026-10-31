@@ -22,10 +22,12 @@
   ],
   "exports": {
     ".": {
-      "import": "./index.js"
+      "import": "./index.js",
+      "default": "./index.js"
     },
     "./max": {
-      "import": "./max/index.js"
+      "import": "./max/index.js",
+      "default": "./max/index.js"
     }
   },
   "sideEffects": false,
